@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_marginBottom="3dp"
+    >
+
+
+    <TextView
+        android:id="@+id/client_number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="+"
+        android:textColor="@android:color/white"
+        android:textSize="20sp"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_call_2"
+        android:background="@drawable/round_shape_xml_2"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="2dp"
+        android:id="@+id/client_call_btn"
+        android:padding="5dp"/>
+
+
+
+</RelativeLayout>

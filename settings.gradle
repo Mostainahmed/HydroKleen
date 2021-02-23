@@ -1,0 +1,2 @@
+rootProject.name='HydroKleen'
+include ':app'
